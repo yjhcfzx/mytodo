@@ -8,7 +8,6 @@ export const addTodo = (text) => {
 }
 
 export const setSearchFilter = (search) => {
-  console.log(search);
   return {
     type: 'SET_SEARCH_FILTER',
     search
